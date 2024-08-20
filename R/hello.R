@@ -13,9 +13,9 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-hello <- function() {
-  print("Hello, world!")
-}
+# hello <- function() {
+#   print("Hello, world!")
+# }
 
 ############
 # @title
@@ -48,3 +48,15 @@ hello <- function() {
 #   slice(69, 277) %>%
 #   select(X1:X7) %>%
 #   janitor::row_to_names(row_number=1)
+
+ed_sum <- function(num1, num2){
+  result <- num1 + num2
+
+  return(result)
+}
+
+ed_diff <- function(n1, n2){
+  result <- n1 - n2
+
+  return(result)
+}
